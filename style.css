@@ -1,0 +1,99 @@
+/* RANDOM */
+p{
+    margin: 0;
+}
+
+label{
+    font-family: 'Inconsolata', monospace;
+}
+
+/* POSITIONING */
+
+@media screen and (min-width: 768px){
+    .contactPos{
+        position: relative;
+        bottom: -50px;
+    }
+}
+
+/* CARDS */
+
+.card-shadow {
+    box-shadow: 7px 10px 40px 12px rgba(0,0,0,0.47);
+}
+
+/* BACKGROUND STUFF */
+
+.bg-dimple {
+    background-color: rgb(154 239 160);
+}
+
+.bg-silver{
+    background-color: #CBCBCBCB;
+}
+
+.bg-charcoal {
+    background-color: #474954;
+}
+
+.bg-whitish{
+    background-color: rgb(219, 219, 219);
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+/* FONT STUFF */
+
+.dim-font {
+    font-family: 'Inconsolata', monospace;
+}
+
+.fc-dimple {
+    color: rgb(154 239 160);
+}
+
+.fc-silver {
+    color: #CBCBCBCB;
+}
+
+.fc-charcoal {
+    color: #474954;
+}
+
+.fc-broccoli {
+    color: #325f40;
+}
+
+.fontw-review {
+    font-weight: 500;
+}
+
+/* SHADOWS */
+
+.txt-shadow {
+    text-shadow: 0px 4px 5px #83838371;
+}
+
+.shdw-inset{
+    box-shadow: 0, 0, 0, 0px 4px 5px #83838371 inset;
+}
+
+/* IMAGES */
+
+.bgimg-mob {
+    background-image: url(/assets/imgs/mob100percent.jpeg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    min-height: 80vh;
+}
+
+.bgimg-dimple{
+    background-image: url(/assets/dimple2.jpg)
+}
